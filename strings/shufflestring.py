@@ -19,7 +19,7 @@ if len(l)>len(s):
     print( "Please check your length of the input given in the list.\nTry again!!!!")
 
 sol=solution()
-sol.shufflestring(s,l)
+print(sol.shufflestring(s,l))
 
 
 
