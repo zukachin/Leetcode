@@ -1,4 +1,0 @@
-#given a array in a list
-list=[5,7,9,13,32,33,42,54,56,88]
-#mention the search key 
-n=9
