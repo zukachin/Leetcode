@@ -18,7 +18,7 @@ def binarysearch(list,n):
        else:
          if list[mid]<n:
             l= mid+1
-        else:
+         else:
             u=mid+1
     return False
 
@@ -29,6 +29,6 @@ list=[5,7,9,13,32,33,42,54,56,88]
 n=9
 #return found or not found using conditional statements
 if binarysearch(list,n):
-    print("found at",pos)
+    print("found at",pos+1)
 else:
-    print("not found at",pos)
+    print("not found at",pos+1)
